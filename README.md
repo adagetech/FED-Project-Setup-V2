@@ -18,7 +18,7 @@ Setting Up Project
     .gitignore
     ```
     /<Project>/dist
-    /<Project>/Static/stylesheets/
+    /<Project>/static/stylesheets/
     ```
 
 How to Use
@@ -68,7 +68,7 @@ Setting Up Code
 
     </head>
     <body>
-
+    
         <script src="~/dist/app/index.js"></script>
 
         <asp:ContentPlaceHolder ID="beforeCloseBody" runat="server"></asp:ContentPlaceHolder>
