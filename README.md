@@ -18,7 +18,7 @@ Setting Up Project
     .gitignore
     ```
     /<Project>/dist
-    /<Project>/static/stylesheets/
+    /<Project>/static/stylesheets
     ```
 
 How to Use
@@ -37,7 +37,7 @@ Setting Up Code
     ```
     <head>
 
-        <link rel="stylesheet" type="text/css" href="~/Static/stylesheets/main.css">
+        <link rel="stylesheet" type="text/css" href="~/static/stylesheets/main.css">
 
     </head>
     <body>
@@ -68,7 +68,7 @@ Setting Up Code
 
     </head>
     <body>
-    
+
         <script src="~/dist/app/index.js"></script>
 
         <asp:ContentPlaceHolder ID="beforeCloseBody" runat="server"></asp:ContentPlaceHolder>
