@@ -13,12 +13,12 @@ Setting Up Project
 1. Drag and drop package.json + webpack.config.js + .eslintrc to root Web directory.
 2. Drag and drop app + static folders to root Web directory.
 3. Run "npm install" in root directory to download necessary packages.
-4. Ignore dist + stylesheets folder from Source Control
+4. Ignore dist + stylesheets folder from Source Control.
 
     .gitignore
     ```
-    /NCDChild_Umbraco.Web/dist
-    /NCDChild_Umbraco.Web/Static/stylesheets/
+    /<Project>/dist
+    /<Project>/Static/stylesheets/
     ```
 
 How to Use
