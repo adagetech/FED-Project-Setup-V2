@@ -1,6 +1,6 @@
 {
   "name": "Adage-FED-Project-Setup-V2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,7 @@
   "author": "Andrew Fedor",
   "license": "ISC",
   "devDependencies": {
+    "autoprefixer": "^6.7.2",
     "babel-core": "^6.22.1",
     "babel-eslint": "^7.1.1",
     "babel-loader": "^6.2.10",
@@ -17,12 +18,14 @@
     "css-loader": "^0.26.1",
     "eslint": "^3.14.1",
     "eslint-loader": "^1.6.1",
-    "extract-text-webpack-plugin": "^1.0.1",
+    "extract-text-webpack-plugin": "^2.0.0-rc.3",
     "json-loader": "^0.5.4",
     "node-sass": "^4.4.0",
+    "postcss-loader": "^1.2.2",
     "sass-loader": "^4.1.1",
     "style-loader": "^0.13.1",
-    "webpack": "^1.14.0",
+    "webpack": "^2.2.1",
     "webpack-livereload-plugin": "^0.10.0"
   }
 }
+
