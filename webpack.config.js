@@ -32,7 +32,7 @@ module.exports = {
     },
     {
       test: /\.scss$/,
-      loader: ExtractTextPlugin.extract({loader: ['css-loader', 'sass-loader', 'postcss-loader']})
+      loader: ExtractTextPlugin.extract({loader: ['css-loader', 'postcss-loader', 'sass-loader']})
     }
     ],
   },
