@@ -14,11 +14,11 @@ This is the base folder structure and Webpack setup to be used on new projects.
 3. Run "npm install" in root Web directory to download necessary packages.
 4. Ignore dist + stylesheets folder from Source Control.
 
-    .gitignore
-    ```
-    **/dist
-    **/static/stylesheets
-    ```
+.gitignore
+```
+**/dist
+**/static/stylesheets
+```
 
 ## How to Use
 
@@ -34,55 +34,56 @@ Note: A binding is included to run "Watch - Development" when opening a project.
 
 ###### _Root.cshtml
     
-    ```
-    <head>
+```
+<head>
 
-        <link rel="stylesheet" type="text/css" href="~/static/stylesheets/main.css">
+    <link rel="stylesheet" type="text/css" href="~/static/stylesheets/main.css">
 
-    </head>
-    <body>
+</head>
+<body>
 
-        <script src="~/dist/app/index.js"></script>
+    <script src="~/dist/app/index.js"></script>
 
-        @RenderSection("scripts", required: false)
+    @RenderSection("scripts", required: false)
 
-    </body>
-    ```
+</body>
+```
 
 ###### Example.cshtml
 
-    ```
-    @section scripts {
+```
+@section scripts {
 
-        <script src="~/dist/example/index.js"></script>
+    <script src="~/dist/example/index.js"></script>
 
-    }
-    ```
+}
+```
 
 #### ASP.NET Web Forms
 
 ###### MasterPage.Master
 
-    ```
-    <head>
+```
+<head>
 
-        <link rel="stylesheet" type="text/css" href="~/static/stylesheets/main.css">
+    <link rel="stylesheet" type="text/css" href="~/static/stylesheets/main.css">
 
-    </head>
-    <body>
+</head>
+<body>
 
-        <script src="~/dist/app/index.js"></script>
+    <script src="~/dist/app/index.js"></script>
 
-        <asp:ContentPlaceHolder ID="beforeCloseBody" runat="server"></asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="beforeCloseBody" runat="server"></asp:ContentPlaceHolder>
 
-    </body>
-    ```
+</body>
+```
 
-    Example.aspx
-    ```
-    <asp:Content ID="Content4" ContentPlaceHolderID="beforeCloseBody" runat="server">
+###### Example.aspx
 
-        <script src="~/dist/example/index.js"></script>
+```
+<asp:Content ID="Content4" ContentPlaceHolderID="beforeCloseBody" runat="server">
 
-    </asp:Content>
-    ```
+    <script src="~/dist/example/index.js"></script>
+
+</asp:Content>
+```
