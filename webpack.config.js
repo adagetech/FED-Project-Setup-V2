@@ -1,4 +1,4 @@
-/// <binding BeforeBuild='Run - Development' ProjectOpened='Watch - Development' />
+/// <binding ProjectOpened='Watch - Development' />
 
 const webpack = require('webpack')
 const path = require('path');
@@ -9,7 +9,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 module.exports = {
   entry: {
     app: './app/',
-    example: './app/components/example/'
+    example: './app/pages/example-page/'
   },
   devtool: 'source-map',
   output: {
