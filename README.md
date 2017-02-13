@@ -11,7 +11,7 @@ This is the base folder structure and Webpack setup to be used on new projects.
 
 1. Drag and drop package.json + webpack.config.js + .eslintrc to root Web directory.
 2. Drag and drop app + static folders to root Web directory.
-3. Run "npm install" in root directory to download necessary packages.
+3. Run "npm install" in root Web directory to download necessary packages.
 4. Ignore dist + stylesheets folder from Source Control.
 
     .gitignore
@@ -30,9 +30,10 @@ Note: A binding is included to run "Watch - Development" when opening a project.
 
 ## Setting Up Code
 
-### ASP.NET Razor
+###### ASP.NET Razor
 
     _Root.cshtml
+
     ```
     <head>
 
@@ -57,9 +58,10 @@ Note: A binding is included to run "Watch - Development" when opening a project.
     }
     ```
 
-### ASP.NET Web Forms
+###### ASP.NET Web Forms
 
     MasterPage.Master
+    
     ```
     <head>
 
