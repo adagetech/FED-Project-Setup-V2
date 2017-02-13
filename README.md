@@ -14,7 +14,7 @@ This is the base folder structure and Webpack setup to be used on new projects.
 3. Run "npm install" in root Web directory to download necessary packages.
 4. Ignore dist + stylesheets folder from Source Control.
 
-.gitignore
+###### .gitignore
 ```
 **/dist
 **/static/stylesheets
