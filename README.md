@@ -30,10 +30,10 @@ Note: A binding is included to run "Watch - Development" when opening a project.
 
 ## Setting Up Code
 
-###### ASP.NET Razor
+#### ASP.NET Razor
 
-    _Root.cshtml
-
+###### _Root.cshtml
+    
     ```
     <head>
 
@@ -49,7 +49,8 @@ Note: A binding is included to run "Watch - Development" when opening a project.
     </body>
     ```
 
-    Example.cshtml
+###### Example.cshtml
+
     ```
     @section scripts {
 
@@ -58,10 +59,10 @@ Note: A binding is included to run "Watch - Development" when opening a project.
     }
     ```
 
-###### ASP.NET Web Forms
+#### ASP.NET Web Forms
 
-    MasterPage.Master
-    
+###### MasterPage.Master
+
     ```
     <head>
 
